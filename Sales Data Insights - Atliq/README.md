@@ -2,13 +2,12 @@
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-Welcome to the repository for my "Sales Data Insight" project. This project involves the analysis of sales data to uncover trends, track key performance indicators (KPIs), and provide actionable insights through an interactive Power BI dashboard.
+Welcome to the repository for my "Sales Data Insight" project. This project involves the analysis of sales data of `ATLIQ HARDWARE` to uncover trend, track key performance indicators (KPIs), and provide actionable insights through an interactive Power BI dashboard.
 
 ## 📊 Dashboard Preview
 
-![Sales Dashboard Screenshot](./Images/dashboard_preview.png)
+![Sales Dashboard Screenshot](sales_data_insight_image.png)
 
-*[**Note:** To make the image above appear, create a folder named "Images" in your repository and upload a screenshot of your dashboard named "dashboard_preview.png".]*
 
 ---
 
@@ -17,7 +16,7 @@ Welcome to the repository for my "Sales Data Insight" project. This project invo
 This project aims to solve the common business problem of having vast amounts of sales data with no easy way to interpret it. The interactive dashboard centralizes key metrics and provides a user-friendly interface for stakeholders to explore sales performance across different dimensions like region, product, and time.
 
 ### 🎯 Key Objectives
-- To develop a comprehensive sales report to monitor KPIs like Total Revenue, Profit Margin, and Sales Growth.
+- To develop a comprehensive sales report to monitor KPIs like Total Revenue and Sales Growth.
 - To identify top-performing products, regions, and sales representatives.
 - To analyze sales trends on a monthly, quarterly, and yearly basis.
 - To provide a dynamic and interactive dashboard for data-driven decision-making.
@@ -57,14 +56,6 @@ The dataset used for this analysis is a [e.g., fictional retail sales dataset, p
 4.  **DAX Calculations:**
     - Created over [e.g., 20+] DAX measures to calculate key business metrics.
     - Implemented Time Intelligence functions to analyze Year-over-Year (YoY) Growth and Year-to-Date (YTD) Sales.
-    - Example of a key measure:
-      ```dax
-      YoY Revenue Growth % = 
-      VAR CurrentYearRevenue = [Total Revenue]
-      VAR PreviousYearRevenue = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR('Date'[Date]))
-      RETURN
-      DIVIDE(CurrentYearRevenue - PreviousYearRevenue, PreviousYearRevenue)
-      ```
 5.  **Report & Visualization:**
     - Designed an intuitive and visually appealing multi-page report.
     - Used a variety of visuals (bar charts, line charts, maps, cards, slicers) to represent the data effectively.
@@ -74,33 +65,11 @@ The dataset used for this analysis is a [e.g., fictional retail sales dataset, p
 
 ## 📈 Key Insights & Findings
 
-- **Top Performing Region:** The [e.g., West] region consistently generated the highest revenue, contributing to over [e.g., 35%] of total sales.
-- **Most Profitable Product Category:** The [e.g., Technology] category, despite having fewer sales in quantity, yielded the highest profit margin.
-- **Seasonal Trends:** A significant spike in sales was observed during [e.g., Q4], likely due to holiday promotions.
-- **Impact of Discounts:** Analysis showed that discounts above [e.g., 20%] had a negative impact on profitability for certain sub-categories.
-
----
-
-## 🚀 How to Use This Project
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[YourUsername]/[YourRepoName].git
-    ```
-2.  **Download the `.pbix` file:**
-    - The main Power BI file is `Sales Data Insight.pbix`.
-3.  **Open in Power BI Desktop:**
-    - You will need Microsoft Power BI Desktop installed on your machine.
-    - Open the `.pbix` file to view the report, data model, and DAX calculations.
-
-*[Optional: If you published your report to the web]*
-You can also view and interact with the live dashboard here: [Link to your published Power BI report]
-
+-In conclusion, the declining sales trend in your 2017-2020 data, particularly the sharp drop in 2020, is a reflection of the severe economic shock induced by the COVID-19 pandemic. The combination of supply chain  disruptions, a significant shift in consumer priorities, and widespread economic uncertainty created a challenging environment for businesses across most sectors in India.
 ---
 
 ## 🔗 Connect with Me
 
-- **Author:** [Your Name]
-- **LinkedIn:** [Your LinkedIn Profile URL]
-
+- **Author:** Ashish Yadav
+- **LinkedIn:** www.linkedin.com/in/ashish75585  
 Feel free to reach out if you have any questions or would like to collaborate on future projects!
